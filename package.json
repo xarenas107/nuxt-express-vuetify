@@ -1,0 +1,58 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.2.5",
+    "@nuxt/test-utils": "^3.4.2",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtjs/html-validator": "^1.2.5",
+    "@nuxtjs/i18n": "^8.0.0-beta.10",
+    "@types/compression": "^1.7.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/hpp": "^0.2.2",
+    "@types/node": "^18.15.12",
+    "@types/pug": "^2.0.6",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@vite-pwa/nuxt": "^0.0.7",
+    "@volar/vue-language-plugin-pug": "^1.4.0",
+    "@vueuse/nuxt": "^10.0.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "device-detector-js": "^3.0.3",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "express": "^5.0.0-beta.1",
+    "helmet": "^6.1.5",
+    "hpp": "^0.2.3",
+    "nuxt": "^3.4.2",
+    "nuxt-vitest": "^0.6.10",
+    "prettier": "^2.8.7",
+    "rate-limiter-flexible": "^2.4.1",
+    "sass": "^1.62.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue-i18n": "^9.2.2",
+    "xss-clean": "^0.1.1"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.2.96",
+    "@nuxtjs/google-fonts": "^3.0.0-1",
+    "@pinia/nuxt": "^0.4.9",
+    "pinia": "^2.0.35",
+    "pug": "^3.0.2",
+    "roboto-fontface": "*",
+    "vuetify": "^3.1.15"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
