@@ -1,0 +1,28 @@
+{
+	"root": true,
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true,
+		"es2022": true,
+		"mongo": true
+	},
+	"parser": "vue-eslint-parser",
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"parser": "@typescript-eslint/parser"
+	},
+	"extends": ["@nuxtjs/eslint-config-typescript", "eslint-config-prettier"],
+	"plugins": ["eslint-plugin-prettier"],
+	"rules": {
+		"no-useless-escape": "warn",
+		"no-console": "off",
+		"unicorn/escape-case": "off",
+		"import/no-named-as-default-member": "off",
+		"import/order": "off",
+		"import/default": "off",
+		"lines-between-class-members": "off",
+		"@typescript-eslint/no-unused-vars": "off",
+		"no-case-declarations": "off"
+	}
+}
